@@ -1,0 +1,31 @@
+body 
+{
+    background-color:#fbd139;
+}
+h1 
+{
+    color:rgb(38,0,255);
+    background-color:antiquewhite;
+}
+#show_sketch 
+{
+    float:right;
+}
+canvas
+{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name:Tarushi;
+    animation-duration:2s;
+    margin-top:50px;
+    animation-iteration-count:infinite;
+}
+@keyframes Tarushi {
+    from{box-shadow:1px 1px 20px orangered;}
+    to{box-shadow:1px 1px 20px whitesmoke;}
+}
+p
+{
+    padding-top:10px;
+    font-size:25px;
+}
